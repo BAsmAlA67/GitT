@@ -1,0 +1,34 @@
+-A database is an organized collection of structured information, or data, typically stored electronically in a computer system. 
+
+A relational database is a connection between data, it uses a structure known as a "relational model" to organize data. This model is based on mathematical set theory, Key concepts in a relational database include: entity, attribute 
+Entity: The things we store
+Attribute: are what we store
+1.	Record (Tuple & Row): A record is a single instance of data within a table. It's also referred to as a tuple.
+2.	Column (Attribute): A column represents a specific piece of information within a table. It defines the type of data that can be stored in that column
+
+
+-RDBMS stands for Relational Database Management System. It is a type of database management system that is based on the principles of the relational model. An RDBMS is designed to manage and organize data in a structured way, using tables with rows and columns, and enforcing relationships between tables.
+
+SQL, which stands for Structured Query Language, is a domain-specific programming language used for managing and manipulating relational databases. SQL provides a standardized way to interact with relational database management systems (RDBMS) to create, retrieve, update, and delete data. 
+Key aspects of SQL include:
+1.	Data Definition Language (DDL): DDL is used to define and manage the structure of the database. Common DDL commands include CREATE, ALTER and DROP 2.
+2.	Data Manipulation Language (DML): DML is used to manipulate and query data within the database. Common DML commands include SELECT, INSERT, UPDATE, and DELETE. 
+
+
+Naming conventions in the context of databases and SQL refer to standardized rules and guidelines for naming database objects such as tables, columns, indexes, and other database elements.
+
+Database design is the process of creating a structured plan for how data will be stored, organized, and accessed within a relational database.
+
+Data integrity refers to the accuracy, consistency, and reliability of data stored in a database. It ensures that the data is correct and maintains its quality throughout its lifecycle, from creation to storage and retrieval.
+There are several aspects to data integrity: Entity Integrity, Domain Integrity, and Null Integrity.
+
+Atomic values, refer to indivisible and irreducible elements of data. An atomic value cannot be further subdivided into smaller components with meaningful semantics within the context of the database system. 
+
+Relationships refer to the associations or connections between tables in a relational database. These relationships define how data in different tables is related to each other.
+ There are three primary types of relationships:
+	One-to-One (1:1) Relationship:
+•	In a one-to-one relationship, each record in one table is associated with exactly one record in another table, and vice versa.
+One-to-Many (1: N) Relationship:
+•	In a one-to-many relationship, each record in the primary table can be associated with multiple records in the related table.
+Many-to-Many (M: N) Relationship:
+•	In a many-to-many relationship, each record in the primary table can be associated with multiple records in the related table, and vice versa.
